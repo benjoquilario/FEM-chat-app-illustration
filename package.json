@@ -1,0 +1,33 @@
+{
+  "name": "chat-app-css-illustration-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass app/scss/style.scss dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjoquilario/fem-chat-app-illustration.git"
+  },
+  "author": "benjo quilario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjoquilario/fem-chat-app-illustration/issues"
+  },
+  "homepage": "https://github.com/benjoquilario/fem-chat-app-illustration#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.3.8",
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

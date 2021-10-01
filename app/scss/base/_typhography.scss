@@ -1,0 +1,26 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.heading {
+  font-size: clamp(1.875rem, 4vw, 2.625rem);
+  font-weight: 500;
+  color: $veryDarkDesaturatedViolet;
+  line-height: 2.3125rem;
+  letter-spacing: -1px;
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+  color: $pColor;
+  line-height: 1.625rem;
+  margin-top: 1.5625rem;
+  padding: 0 1.25rem;
+
+  @media (min-width: 48em) {
+    padding: 0;
+  }
+}

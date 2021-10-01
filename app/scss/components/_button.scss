@@ -1,0 +1,39 @@
+.btn {
+  position: relative;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 0.125rem dashed $veryDarkDesaturatedViolet;
+    outline-offset: 0.125rem;
+  }
+  &--back {
+    background-color: transparent;
+    height: 1.4375rem;
+
+    &:hover {
+      transform: translateX(-0.25rem);
+      transition: transform 350ms ease-in-out;
+    }
+
+    .fas {
+      color: white;
+    }
+  }
+
+  &--submit {
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    width: 1.625rem;
+    height: 1.625rem;
+
+    .fas {
+      color: white;
+    }
+  }
+}

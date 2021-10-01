@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="content__container">
+          <div class="container__outline">
+            <form action="#" class="form__content">
+              <div class="form__content__top">
+                <button class="btn btn--back" aria-label="back">
+                  <i class="fas fa-angle-left"></i>
+                </button>
+                <div class="content__info">
+                  <img
+                    src="./images/avatar.jpg"
+                    alt="info photo"
+                    class="content__info--image"
+                  />
+                  <div class="content__info--name">
+                    <span class="name">Samuel Green</span>
+                    <span class="job">Available to Walk</small>
+                  </div>
+                </div>
+                <button class="btn btn--back" aria-label="menu">
+                  <i class="fas fa-ellipsis-v"></i>
+                </button>
+              </div>
+              <div class="form__content__chat">
+                <ul class="message-box">
+                  <li class="message-box__text message-box__left">
+                    That sounds great. I’d be happy with that.
+                  </li>
+                  <li class="message-box__text message-box__left">
+                    Could you send over some pictures of your dog, please?
+                  </li>
+                  <li class="message-box__photo">
+                    <img
+                      src="./images/dog-image-1.jpg"
+                      alt="photo of dog"
+                      class="message-box__photo--img"
+                    />
+                    <img
+                      src="./images/dog-image-2.jpg"
+                      alt="photo of dog"
+                      class="message-box__photo--img"
+                    />
+                    <img
+                      src="./images/dog-image-3.jpg"
+                      alt="photo of dog"
+                      class="message-box__photo--img"
+                    />
+                  </li>
+                  <li class="message-box__text message-box__right">
+                    Here are a few pictures. She’s a happy girl!
+                  </li>
+                  <li class="message-box__text message-box__right">
+                    Can you make it?
+                  </li>
+                  <li class="message-box__text message-box__left">
+                    She looks so happy! The time we discussed works. How long
+                    shall I take her out for?
+                  </li>
+                  <li class="message-box__radio">
+                    <span>
+                      <input type="radio" name="radio" id="radio">
+                       <label for="radio" class="message-box__radio--radio">
+                       </label>
+                    </span>
+                    <span>30 minute walk</span>
+                    <span class="message-box__radio--price">$29</span>
+                  </li>
+                  <li class="message-box__radio">
+                    <span>
+                      <input type="radio" name="radio2" id="radio2">
+                      <label for="radio2" class="message-box__radio--radio">
+                      </label>
+                    </span>
+                    <span>1 hour walk</span>
+                    <span class="message-box__radio--price">$49</span></li>
+                </ul>
+              </div>
+              <div class="form__content__input">
+                <input
+                  type="text"
+                  placeholder="Type a message.."
+                  class="form__content__input--text"
+                />
+                <button type="submit" class="btn btn--submit">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="container__text">
+            <h1 class="heading">Simple booking</h1>
+            <p class="paragraph">
+              Stay in touch with our dog walkers through the chat interface.
+              This makes it easy to discuss arrangements and make bookings. Once
+              the walk has been completed you can rate your walker and book
+              again all through the chat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Benjo Quilario</a>.
+      </div> 
+    </footer>
+  <script src="./app/js/script.js"></script>
+  </body>
+</html>
